@@ -1,5 +1,7 @@
 # chart-reference-labeller
 
+[![Python tests](https://github.com/AbdulkadirKhoujja/chart-reference-labeller/actions/workflows/python-tests.yml/badge.svg)](https://github.com/AbdulkadirKhoujja/chart-reference-labeller/actions/workflows/python-tests.yml)
+
 **Turns narrated chart-teaching videos into bar-level training examples: "this bar", "these three bars", "this wedge" → the exact candlesticks the instructor pointed at, or an explicit abstain when it isn't clear.**
 
 Built as a working demonstration for converting trading-course videos into structured, machine-readable training data. Precision comes first: the pipeline only emits a label when the pointer clearly indicates the bars, and abstains with a stated reason otherwise.
@@ -116,3 +118,7 @@ MIT licensed.
 ## 90-second demonstration walkthrough
 
 [Watch the captioned walkthrough](docs/walkthrough_90s_captioned.mp4) or read the [voiceover narration script](docs/WALKTHROUGH_NARRATION.md). The video is silent and uses synthetic demonstration footage; it is not evidence of performance on real client videos.
+
+## Continuous integration
+
+GitHub Actions installs the declared project dependencies on Ubuntu 24.04 with Python 3.13, then runs the original unittest suite on pushes to `main`, pull requests and manual dispatches. The trading workflow also installs FFmpeg. The [25 October 2026 verified run](https://github.com/AbdulkadirKhoujja/chart-reference-labeller/actions/runs/40235653721) passed **14/14 tests** on commit `c1a79d71e4d735638db85a666eb2c2b5977d7895`. These are synthetic test and application checks, not validation on unfamiliar client footage or professional embroidery outputs.
