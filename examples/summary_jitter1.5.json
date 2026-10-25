@@ -1,0 +1,13 @@
+{
+  "seeds": 10,
+  "jitter_px": 1.5,
+  "emitted": 120,
+  "correct": 120,
+  "wrong": 0,
+  "false": 0,
+  "real": 120,
+  "amb": 40,
+  "amb_ok": 40,
+  "precision": 1.0,
+  "coverage": 1.0
+}

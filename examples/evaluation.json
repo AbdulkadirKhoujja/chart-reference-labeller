@@ -1,0 +1,268 @@
+{
+  "labels_emitted": 12,
+  "correct": 12,
+  "wrong": 0,
+  "false_labels": 0,
+  "precision": 1.0,
+  "real_references": 12,
+  "coverage": 1.0,
+  "missed": 0,
+  "ambiguous_moments": 4,
+  "correct_abstains": 4,
+  "rows": [
+    {
+      "segment": 1,
+      "text": "Here we are in a clear bull trend above the moving average.",
+      "truth": null,
+      "predicted": null,
+      "confidence": null,
+      "outcome": "no reference (ignored)"
+    },
+    {
+      "segment": 2,
+      "text": "Look at this bar, a strong bull trend bar closing near its high.",
+      "truth": {
+        "bars": [
+          5
+        ]
+      },
+      "predicted": [
+        5
+      ],
+      "confidence": 0.933,
+      "outcome": "correct"
+    },
+    {
+      "segment": 3,
+      "text": "These three bars form a tight pullback.",
+      "truth": {
+        "bars": [
+          8,
+          9,
+          10
+        ]
+      },
+      "predicted": [
+        8,
+        9,
+        10
+      ],
+      "confidence": 1.0,
+      "outcome": "correct"
+    },
+    {
+      "segment": 4,
+      "text": "This is the second entry buy setup.",
+      "truth": {
+        "bars": [
+          12
+        ]
+      },
+      "predicted": [
+        12
+      ],
+      "confidence": 1.0,
+      "outcome": "correct"
+    },
+    {
+      "segment": 5,
+      "text": "I would buy here above the signal bar.",
+      "truth": {
+        "bars": [
+          13
+        ]
+      },
+      "predicted": [
+        13
+      ],
+      "confidence": 0.933,
+      "outcome": "correct"
+    },
+    {
+      "segment": 6,
+      "text": "Now this one is harder to read.",
+      "truth": "ambiguous",
+      "predicted": null,
+      "confidence": 0.0,
+      "outcome": "correct abstain"
+    },
+    {
+      "segment": 7,
+      "text": "These bars show the market going sideways.",
+      "truth": {
+        "bars": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      "predicted": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "confidence": 0.85,
+      "outcome": "correct"
+    },
+    {
+      "segment": 8,
+      "text": "This breakout failed quickly.",
+      "truth": {
+        "bars": [
+          27
+        ]
+      },
+      "predicted": [
+        27
+      ],
+      "confidence": 1.0,
+      "outcome": "correct"
+    },
+    {
+      "segment": 9,
+      "text": "And this bar trapped the late bulls.",
+      "truth": "ambiguous",
+      "predicted": null,
+      "confidence": 0.0,
+      "outcome": "correct abstain"
+    },
+    {
+      "segment": 10,
+      "text": "Notice how the moving average flattened out.",
+      "truth": null,
+      "predicted": null,
+      "confidence": null,
+      "outcome": "no reference (ignored)"
+    },
+    {
+      "segment": 11,
+      "text": "This is a trading range, so we expect reversals.",
+      "truth": null,
+      "predicted": null,
+      "confidence": null,
+      "outcome": "no reference (ignored)"
+    },
+    {
+      "segment": 12,
+      "text": "This bar is the first push down.",
+      "truth": {
+        "bars": [
+          4
+        ]
+      },
+      "predicted": [
+        4
+      ],
+      "confidence": 0.933,
+      "outcome": "correct"
+    },
+    {
+      "segment": 13,
+      "text": "This wedge has three pushes.",
+      "truth": {
+        "bars": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "predicted": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "confidence": 0.85,
+      "outcome": "correct"
+    },
+    {
+      "segment": 14,
+      "text": "I would not take this trade because the location is poor.",
+      "truth": {
+        "bars": [
+          15
+        ]
+      },
+      "predicted": [
+        15
+      ],
+      "confidence": 0.933,
+      "outcome": "correct"
+    },
+    {
+      "segment": 15,
+      "text": "Look at this bar here.",
+      "truth": "ambiguous",
+      "predicted": null,
+      "confidence": 0.0,
+      "outcome": "correct abstain"
+    },
+    {
+      "segment": 16,
+      "text": "These two bars are an outside up pattern.",
+      "truth": {
+        "bars": [
+          19,
+          20
+        ]
+      },
+      "predicted": [
+        19,
+        20
+      ],
+      "confidence": 1.0,
+      "outcome": "correct"
+    },
+    {
+      "segment": 17,
+      "text": "This pullback is shallow.",
+      "truth": {
+        "bars": [
+          23
+        ]
+      },
+      "predicted": [
+        23
+      ],
+      "confidence": 1.0,
+      "outcome": "correct"
+    },
+    {
+      "segment": 18,
+      "text": "Was it this bar or the next one?",
+      "truth": "ambiguous",
+      "predicted": null,
+      "confidence": 0.067,
+      "outcome": "correct abstain"
+    },
+    {
+      "segment": 19,
+      "text": "This failed breakout is the sell signal.",
+      "truth": {
+        "bars": [
+          28
+        ]
+      },
+      "predicted": [
+        28
+      ],
+      "confidence": 0.933,
+      "outcome": "correct"
+    },
+    {
+      "segment": 20,
+      "text": "That is the end of the lesson.",
+      "truth": null,
+      "predicted": null,
+      "confidence": null,
+      "outcome": "no reference (ignored)"
+    }
+  ]
+}

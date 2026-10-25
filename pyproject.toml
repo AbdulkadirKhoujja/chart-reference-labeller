@@ -1,0 +1,12 @@
+[project]
+name = "chart-reference-labeller"
+version = "0.1.0"
+description = "Turn narrated chart-teaching videos into bar-level training examples, with abstention when unclear."
+requires-python = ">=3.11"
+dependencies = ["opencv-python", "numpy", "pydantic>=2", "flask"]
+
+[project.scripts]
+chartref = "chartref.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
