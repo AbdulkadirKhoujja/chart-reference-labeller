@@ -112,3 +112,7 @@ evaluate.py · stress_test.py · tests/ · examples/ · docs/
 ```
 
 MIT licensed.
+
+## 90-second demonstration walkthrough
+
+[Watch the captioned walkthrough](docs/walkthrough_90s_captioned.mp4) or read the [voiceover narration script](docs/WALKTHROUGH_NARRATION.md). The video is silent and uses synthetic demonstration footage; it is not evidence of performance on real client videos.
