@@ -117,7 +117,7 @@ MIT licensed.
 
 ## 90-second demonstration walkthrough
 
-[Watch the captioned walkthrough](docs/walkthrough_90s_captioned.mp4) or read the [voiceover narration script](docs/WALKTHROUGH_NARRATION.md). The video is silent and uses synthetic demonstration footage; it is not evidence of performance on real client videos.
+[Watch the official 90-second narrated walkthrough](docs/walkthrough_90s_captioned.mp4) or read the [narration script](docs/WALKTHROUGH_NARRATION.md). The video includes recorded voice-over audio and captions. Its original path is retained for existing proposal links. The demonstration uses synthetic footage and is not evidence of performance on real client videos.
 
 ## Continuous integration
 

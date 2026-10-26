@@ -14,4 +14,4 @@
 
 **01:15–01:30 — Evidence and limits.** On the generated lesson, all twelve labels match the answer key, and all four ambiguous references are withheld. The source and reproducible checks are public on GitHub. Accuracy on actual customer footage is still untested, and validating it would be the first delivery milestone.
 
-**Note:** this is a narration script for the existing silent preview; it does not assert a human voiceover was recorded.
+**Note:** the accompanying official 90-second walkthrough now includes recorded voice-over audio and captions. The narration text is a recording guide and may differ slightly from the spoken version. Only synthetic footage is used.
